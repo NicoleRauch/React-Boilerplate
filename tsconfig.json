@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "build-js",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDirs": ["src", "test"],
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "build-js",
+    "coverage",
+    "buildParameter.js",
+    "webpack.base.config.js",
+    "webpack.beta.config.js",
+    "webpack.config.js",
+    "webpack.prod.config.js",
+    "jest"
+  ]
+}
